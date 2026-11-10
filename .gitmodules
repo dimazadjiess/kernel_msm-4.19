@@ -1,0 +1,36 @@
+[submodule "arch/arm64/boot/dts/vendor-legacy"]
+	path = arch/arm64/boot/dts/vendor-legacy
+	url = https://github.com/Mi-Thorium/kernel_devicetree_msm-4.19.git
+	branch = dts/master
+[submodule "arch/arm64/boot/dts/xiaomi-msm8937"]
+	path = arch/arm64/boot/dts/xiaomi-msm8937
+	url = https://github.com/Mi-Thorium/kernel_devicetree_xiaomi-msm8937.git
+	branch = dts/mi8937/4.19/master
+[submodule "arch/arm64/boot/dts/xiaomi-sdm439"]
+	path = arch/arm64/boot/dts/xiaomi-sdm439
+	url = https://github.com/Mi-Thorium/kernel_devicetree_xiaomi-sdm439.git
+	branch = dts/mi439/4.19/master
+[submodule "techpack/xiaomi-msm8937"]
+	path = techpack/xiaomi-msm8937
+	url = https://github.com/Mi-Thorium/kernel_techpack_xiaomi-msm8937.git
+	branch = techpack/mi8937/4.19/master
+[submodule "techpack/xiaomi-sdm439"]
+	path = techpack/xiaomi-sdm439
+	url = https://github.com/Mi-Thorium/kernel_techpack_xiaomi-sdm439.git
+	branch = techpack/mi439/4.19/master
+[submodule "techpack/audio-legacy"]
+	path = techpack/audio-legacy
+	url = https://github.com/Mi-Thorium/kernel_techpack_audio-legacy
+	branch = audio/4.19/mithorium/master
+[submodule "techpack/camera-legacy"]
+	path = techpack/camera-legacy
+	url = https://github.com/Mi-Thorium/kernel_techpack_camera-legacy
+	branch = camera/LA.UM.8.6.r1-05300-89xx.0/4.19/mithorium
+[submodule "techpack/camera-legacy-m"]
+	path = techpack/camera-legacy-m
+	url = https://github.com/Mi-Thorium/kernel_techpack_camera-legacy
+	branch = camera/LA.UM.5.3-10610-89xx.0/4.19/mithorium
+[submodule "drivers/staging/prima"]
+	path = drivers/staging/prima
+	url = https://github.com/Mi-Thorium/vendor_qcom_opensource_wlan_prima
+	branch = wlan/LA.UM.9.6.4/mithorium/master
